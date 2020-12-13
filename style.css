@@ -1,3 +1,65 @@
-body{background-color: bisque;}
-.ProfileTitle{background-color: cadetblue; font-family: 'Courier New';}
-.Profiledetail{background-color: darkgoldenrod; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: bisque;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(183, 204, 202, 0.767);
+}
+.logo{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(79, 194, 194);
+}
+.menu{
+    height: 60px;
+    flex-grow: 1;
+    background-color: rgb(79, 194, 194);
+
+}
+.search{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(79, 194, 194);
+
+}
+.selections{
+    height: 60px;
+    background-color: gray;
+    flex-grow: 1;
+}
+.banner{
+    height: 400px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,154,104,1) 63%, rgba(0,212,255,1) 100%);
+    flex-grow: 1; 
+}
+.cources{
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(182, 184, 80);
+    flex-grow: 1;
+}
+.experience{
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(81, 118, 153);
+    flex-grow: 1;
+}
+.contact{
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(155, 84, 151);
+    flex-grow: 1;
+}
